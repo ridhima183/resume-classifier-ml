@@ -1,2 +1,26 @@
-# resume-classifier-ml
-A Machine Learning based Resume Classification system that analyzes resume text and predicts the most suitable career category such as Data Science, Software Development, DevOps, and Cybersecurity. The project uses TF-IDF for feature extraction and models like Logistic Regression, Random Forest, and SVM.
+# Resume Classifier using Machine Learning
+
+This project classifies resumes into career categories such as:
+- Data Science
+- Software Developer
+- DevOps
+- Cybersecurity
+
+## Models Used
+- Logistic Regression
+- Random Forest
+- Linear SVM
+
+## Features
+- TF-IDF text vectorization
+- Resume classification
+- Confidence score prediction
+- Supports PDF, Image, and TXT resumes
+
+## Installation
+
+pip install -r requirements.txt
+
+## Run
+
+python resume_classifier_project.py
